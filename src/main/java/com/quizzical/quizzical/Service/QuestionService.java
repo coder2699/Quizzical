@@ -8,7 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.quizzical.quizzical.Question;
+import com.quizzical.quizzical.Entity.Question;
 import com.quizzical.quizzical.Repository.QuestionRepo;
 
 @Service

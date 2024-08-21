@@ -1,4 +1,4 @@
-package com.quizzical.quizzical;
+package com.quizzical.quizzical.Entity;
 
 
 import jakarta.persistence.Entity;

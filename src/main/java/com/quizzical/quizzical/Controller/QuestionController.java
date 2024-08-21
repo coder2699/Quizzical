@@ -3,7 +3,7 @@ package com.quizzical.quizzical.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.quizzical.quizzical.Question;
+import com.quizzical.quizzical.Entity.Question;
 import com.quizzical.quizzical.Service.QuestionService;
 
 import java.util.List;
