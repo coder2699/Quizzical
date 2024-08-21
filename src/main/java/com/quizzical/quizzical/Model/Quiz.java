@@ -1,20 +1,17 @@
-package com.quizzical.quizzical.Entity;
+package com.quizzical.quizzical.Model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-
 import java.util.List;
 
 @Entity
 @Data
 public class Quiz {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String title;
 
-    @ManyToMany
+    @ManyToMany(fetch=FetchType.EAGER)
     private List<Question> questions;
-
 }
